@@ -6,6 +6,6 @@
         android:title="Tweet"
         app:showAsAction="always"/>
     <item android:id="@+id/logout_button"
-        android:title="Tweet"
+        android:title="Logout"
         app:showAsAction="always"/>
 </menu>
