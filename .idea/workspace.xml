@@ -1896,7 +1896,7 @@
     <property name="recentsLimit" value="5" />
     <property name="android.project.structure.last.selected" value="ParseStarterProject" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="a98256ab" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4_API_22_Google_API" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../InstagramClone" />
     <property name="FullScreen" value="false" />
