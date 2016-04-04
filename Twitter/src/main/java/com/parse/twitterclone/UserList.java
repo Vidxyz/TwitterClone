@@ -167,6 +167,14 @@ public class UserList extends AppCompatActivity {
         else if(id == R.id.view_feed) {
             Intent i = new Intent(getApplicationContext(), ViewFeed.class);
             startActivity(i);
+            return true;
+        }
+
+        else if(id == R.id.logout_button) {
+            ParseUser.logOut();
+            Intent i = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(i);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

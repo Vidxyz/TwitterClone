@@ -1,5 +1,8 @@
 package com.parse.twitterclone;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,14 +12,17 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.parse.SaveCallback;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -83,8 +89,53 @@ public class ViewFeed extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.options_button)
+        if(id == R.id.logout_button) {
+            ParseUser.logOut();
+            Intent i = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(i);
             return true;
+        }
+
+        else if(id == R.id.tweet_button) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Send a tweet");
+            final EditText tweetContent = new EditText(this);
+            builder.setView(tweetContent);
+
+            builder.setPositiveButton("Send", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    Log.i("MyApp", String.valueOf(tweetContent.getText()));
+
+                    ParseObject tweet = new ParseObject("Tweet");
+                    tweet.put("content", String.valueOf(tweetContent.getText()));
+                    tweet.put("username", ParseUser.getCurrentUser().getUsername());
+
+                    tweet.saveInBackground(new SaveCallback() {
+                        @Override
+                        public void done(ParseException e) {
+                            if (e == null) {
+                                Toast.makeText(ViewFeed.this, "Your Tweet has been sent!", Toast.LENGTH_LONG);
+                            } else {
+                                Toast.makeText(ViewFeed.this, "Something went wrong", Toast.LENGTH_LONG);
+                                e.printStackTrace();
+                            }
+                        }
+                    });
+
+                }
+            });
+
+            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.cancel();
+                }
+            });
+
+            builder.show();
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

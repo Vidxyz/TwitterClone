@@ -2062,6 +2062,7 @@ containing a value of this type.
         public static final int listView=0x7f0c006c;
         public static final int list_item=0x7f0c0041;
         public static final int logo=0x7f0c0067;
+        public static final int logout_button=0x7f0c0080;
         public static final int media_actions=0x7f0c0073;
         public static final int middle=0x7f0c002a;
         public static final int mini=0x7f0c0028;
@@ -2069,7 +2070,6 @@ containing a value of this type.
         public static final int never=0x7f0c002e;
         public static final int none=0x7f0c000f;
         public static final int normal=0x7f0c000b;
-        public static final int options_button=0x7f0c0080;
         public static final int parallax=0x7f0c0018;
         public static final int parentPanel=0x7f0c0044;
         public static final int password=0x7f0c0069;

@@ -2,7 +2,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ViewFeed">
-    <item android:id="@+id/options_button"
+    <item android:id="@+id/tweet_button"
         android:title="Tweet"
-        app:showAsAction="never"/>
+        app:showAsAction="always"/>
+    <item android:id="@+id/logout_button"
+        android:title="Tweet"
+        app:showAsAction="always"/>
 </menu>

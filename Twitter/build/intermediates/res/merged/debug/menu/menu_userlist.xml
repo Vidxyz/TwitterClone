@@ -8,5 +8,8 @@
     <item android:id="@+id/view_feed"
         android:title="View Feed"
         app:showAsAction="always"/>
+    <item android:id="@+id/logout_button"
+        android:title="Logout"
+        app:showAsAction="always"/>
 </menu>
 <!-- From: file:/C:/Users/Vidhyasagar/AndroidStudioProjects/TwitterClone/Twitter/src/main/res/menu/menu_userlist.xml -->

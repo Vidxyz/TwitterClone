@@ -86,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/UserList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
+              <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
               <folding>
                 <element signature="e#1689#2540#0" expanded="true" />
                 <element signature="e#2539#2540#0" expanded="true" />
@@ -110,14 +110,40 @@
       <file leaf-file-name="ViewFeed.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/ViewFeed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7566064">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0032467532">
+              <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
               <folding>
-                <element signature="e#1215#1228#0" expanded="true" />
-                <element signature="e#1440#2655#0" expanded="true" />
-                <element signature="e#1784#1800#0" expanded="true" />
-                <element signature="e#2654#2655#0" expanded="true" />
+                <element signature="e#1410#1423#0" expanded="true" />
+                <element signature="e#1635#2850#0" expanded="true" />
+                <element signature="e#1979#1995#0" expanded="true" />
+                <element signature="e#2849#2850#0" expanded="true" />
+                <element signature="e#3989#5062#0" expanded="true" />
+                <element signature="e#4482#5027#0" expanded="true" />
+                <element signature="e#5026#5027#0" expanded="true" />
+                <element signature="e#5061#5062#0" expanded="true" />
+                <element signature="e#5114#5321#0" expanded="true" />
+                <element signature="e#5320#5321#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_viewfeed.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/menu/menu_viewfeed.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_userlist.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/menu/menu_userlist.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,16 +164,6 @@
           </provider>
           <provider selected="true" editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_userlist.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/menu/menu_userlist.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -1717,11 +1733,11 @@
         <option value="$PROJECT_DIR$/Twitter/src/main/res/layout/activity_user_list.xml" />
         <option value="$PROJECT_DIR$/Twitter/src/main/res/menu/userlist_menu.xml" />
         <option value="$PROJECT_DIR$/Twitter/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Twitter/src/main/res/menu/menu_viewfeed.xml" />
-        <option value="$PROJECT_DIR$/Twitter/src/main/res/menu/menu_userlist.xml" />
-        <option value="$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/UserList.java" />
         <option value="$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/MainActivity.java" />
         <option value="$PROJECT_DIR$/Twitter/src/main/res/layout/activity_view_feed.xml" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/res/menu/menu_userlist.xml" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/res/menu/menu_viewfeed.xml" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/UserList.java" />
         <option value="$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/ViewFeed.java" />
       </list>
     </option>
@@ -1880,7 +1896,7 @@
     <property name="recentsLimit" value="5" />
     <property name="android.project.structure.last.selected" value="ParseStarterProject" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="a98256ab" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4_API_22_Google_API" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../InstagramClone" />
     <property name="FullScreen" value="false" />
@@ -2103,10 +2119,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2226847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2226847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2249,45 +2265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/menu/menu_viewfeed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07093185">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/menu/menu_userlist.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/UserList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
-          <folding>
-            <element signature="e#1689#2540#0" expanded="true" />
-            <element signature="e#2539#2540#0" expanded="true" />
-            <element signature="e#2850#4355#0" expanded="true" />
-            <element signature="e#3372#3704#0" expanded="true" />
-            <element signature="e#3703#3704#0" expanded="true" />
-            <element signature="e#3977#4311#0" expanded="true" />
-            <element signature="e#4310#4311#0" expanded="true" />
-            <element signature="e#4354#4355#0" expanded="true" />
-            <element signature="e#5274#6347#0" expanded="true" />
-            <element signature="e#5767#6312#0" expanded="true" />
-            <element signature="e#6311#6312#0" expanded="true" />
-            <element signature="e#6346#6347#0" expanded="true" />
-            <element signature="e#6399#6606#0" expanded="true" />
-            <element signature="e#6605#6606#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/layout/activity_user_list.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2299,10 +2276,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/menu/menu_userlist.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2324,15 +2301,60 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/res/menu/menu_viewfeed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/UserList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
+          <folding>
+            <element signature="e#1689#2540#0" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
+            <element signature="e#2850#4355#0" expanded="true" />
+            <element signature="e#3372#3704#0" expanded="true" />
+            <element signature="e#3703#3704#0" expanded="true" />
+            <element signature="e#3977#4311#0" expanded="true" />
+            <element signature="e#4310#4311#0" expanded="true" />
+            <element signature="e#4354#4355#0" expanded="true" />
+            <element signature="e#5274#6347#0" expanded="true" />
+            <element signature="e#5767#6312#0" expanded="true" />
+            <element signature="e#6311#6312#0" expanded="true" />
+            <element signature="e#6346#6347#0" expanded="true" />
+            <element signature="e#6399#6606#0" expanded="true" />
+            <element signature="e#6605#6606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/com/parse/twitterclone/ViewFeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7566064">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0032467532">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
           <folding>
-            <element signature="e#1215#1228#0" expanded="true" />
-            <element signature="e#1440#2655#0" expanded="true" />
-            <element signature="e#1784#1800#0" expanded="true" />
-            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#1410#1423#0" expanded="true" />
+            <element signature="e#1635#2850#0" expanded="true" />
+            <element signature="e#1979#1995#0" expanded="true" />
+            <element signature="e#2849#2850#0" expanded="true" />
+            <element signature="e#3989#5062#0" expanded="true" />
+            <element signature="e#4482#5027#0" expanded="true" />
+            <element signature="e#5026#5027#0" expanded="true" />
+            <element signature="e#5061#5062#0" expanded="true" />
+            <element signature="e#5114#5321#0" expanded="true" />
+            <element signature="e#5320#5321#0" expanded="true" />
           </folding>
         </state>
       </provider>
