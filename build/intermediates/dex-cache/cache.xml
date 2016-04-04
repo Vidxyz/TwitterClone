@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Vidhyasagar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-789a387c7df4389cb7cf8af1aed4ed7d6bb15ad0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vidhyasagar\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-5f2e6fb31b9886af90c0142a012401d24940da1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vidhyasagar\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\pre-dexed\debug\parse-android-1.13.0-4648f30ad45d33e30e20d7e767bb19354f0e9387.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\pre-dexed\debug\classes-3043fcaab63377d7d1e1aaf7f300015fcadc3b61.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\pre-dexed\debug\classes-5939927e832bd708df848cdeab6bd7bfa099c33f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-e7f1f3a40c76662dc7ef64196794b87015313445.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\Users\Vidhyasagar\AndroidStudioProjects\TwitterClone\Twitter\build\intermediates\pre-dexed\debug\classes-e1c3ed9c800c8edfebed7a6c01dd1004b4d580c7.jar" />
+    </item>
+
+</items>

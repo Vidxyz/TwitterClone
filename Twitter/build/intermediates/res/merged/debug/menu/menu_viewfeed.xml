@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ViewFeed">
+    <item android:id="@+id/options_button"
+        android:title="Tweet"
+        app:showAsAction="never"/>
+</menu>
+<!-- From: file:/C:/Users/Vidhyasagar/AndroidStudioProjects/TwitterClone/Twitter/src/main/res/menu/menu_viewfeed.xml -->

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UserList">
+    <item android:id="@+id/tweet_button"
+        android:title="Tweet"
+        app:showAsAction="always"/>
+    <item android:id="@+id/view_feed"
+        android:title="View Feed"
+        app:showAsAction="always"/>
+</menu>
